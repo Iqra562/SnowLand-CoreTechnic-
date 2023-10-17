@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding-bottom: 20px;
+}
+/*/-/-/-/-/-/-/-/-/- css of navbar start /-/-/-/-/-/-/-/-/-*/
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+#logo{
+    float:left;
+    width: 30%;
+}
+#nav-items {
+    padding: 20px;
+    float: left;
+    width: 50%;
+}
+#nav-items ul li{
+    float: left;
+    list-style-type: none;
+    text-indent: 30px;
+}
+#nav-items ul li a{
+    text-decoration: none;
+    font-size: 17px;
+        color: #4ab0d6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#nav-items ul li:nth-child(even){
+    color: #4ab0d6
+}
+#logo{
+    display: flex;
+    align-items: center;
+   }
+   #d_name{
+       color: #4ab0d6;
+       font-size: 20px;
+       font-weight: bold;
+       font-family:serif;
+       font-style: italic;
+   }
+   .images{
+    /* width: 20%; */
+    float: right;
+}
+.images div{
+    padding: 20px 0;
+    float: left;
+    margin-left: 20px;
+}
+.header{
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    padding: 5px 30px;
+}
+   /*/-/-/-/-/-//-/-/-/-/-/-/-/-/ css of navvbar end/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/- */
+
+
+/*/-/-/-//-/-/-/-/-/-/-//-/-/ css of main image start /-/-//--/-/-/-/-/-/-/-/-/-/-/-/-/*/
+.main_image{
+   /* background: url(./images/img.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center; */
+   height: 600px;
+}
+#explore{
+    box-sizing: border-box;
+    position: relative;
+    top: -350px;
+    left: 160px;
+    color: #4ab0d6;
+    background-color: rgb(255, 255, 255,0.8);
+    width: 235px;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: 550;
+    font-family: sans-serif;
+    border-radius: 3px;
+
+    
+}
+#top_head{
+    position: absolute;
+    box-sizing: border-box;
+    position: relative;
+    top: -350px;
+
+margin-left: 150px;
+    color: white;
+    font-size: 65px;
+    text-transform: uppercase;
+    font-weight: 600;
+ 
+  
+    /* font-weight: 900; */
+    font-family: sans-serif;
+    
+}
+/* /-/-/-/-/-/-/-//-/-//-/-/css of main image end /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-//-/-*/
+/* /-/-/-/-/-/-/-/-/-/-/-/winter in pakistan css start /-/-/-/-/-/-/-/-/-/-/-/-/-/-/- */
+
+/* container */
+.container{
+    border-bottom: 1px solid #4ab0d6;
+    /* border: 1px solid black; */
+    height:auto;
+    width: auto;
+    padding-bottom: 30px;
+    /* padding-left: 0px; */
+    /* margin-left: 0px; */
+    /* background-color: black; */
+    margin:0px 140px 0px 140px;
+    
+}
+
+
+.pak1_img {
+    background: url(./images/pakistan.jpg);
+     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    height: 250px;
+   
+    margin-bottom: 20px;
+    border-radius: 5px; 
+}
+.pak2_img{
+    background: url(./images/pakistan1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    
+}
+.pak3_img{
+    background: url(./images/paks.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    margin-bottom: 20px;
+    
+    border-radius: 5px;
+    
+}
+
+.pak{
+    border: 1px solid #4ab0d6;
+    height: auto;
+    width: 31%;
+    float: left;
+    border-radius: 5px;
+    box-shadow: 5px 5px  10px  gray;
+}
+.pak-con{
+    display: flex;
+    justify-content:space-between;
+}
+/* winter in pakistan */
+.heading_pak{
+    text-align: center;
+    padding: 20px;
+    color: #4ab0d6;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.pak h5{
+    font-size: 20px;
+    padding-bottom: 2px;
+    padding-left: 7px;
+    color: #4ab0d6;
+}
+.pak p{
+    
+    padding-left: 7px;
+    padding-bottom: 6px;
+    font-family:sans-serif;
+    font-size: 15px;
+}
+/* /-/-/-/-/-/-/-/-/-/-/-/-/-/-/--/-/- winter in pakistan css end /-/-/-/-/-//-/-//-/-/-/-/-//-/-//-/-//*/
+.amer1_img {
+    background: url(./images/amer1.webp);
+     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    height: 250px;
+   
+    margin-bottom: 20px;
+    border-radius: 5px; 
+}
+.amer2_img{
+    background: url(./images/amer3.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    
+}
+.amer3_img{
+    background: url(./images/ameri3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    margin-bottom: 20px;
+    
+    border-radius: 5px;
+    
+}
+.swi1_img {
+    background: url(./images/sitz2.jpg);
+     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    height: 250px;
+   
+    margin-bottom: 20px;
+    border-radius: 5px; 
+}
+.swi2_img{
+    background: url(./images/switezer.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    
+}
+.swi3_img{
+    background: url(./images/switzerland1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    margin-bottom: 20px;
+    
+    border-radius: 5px;
+    
+}
+/* css of footer  start*/
+.footer{
+    background-color: #f6f6f8;
+    height: auto;
+    
+    margin-top: 20px;
+    padding-top: 25px;
+}
+.sub_footer{
+    border-bottom: none;
+    /* background-color: yellow; */
+    height: auto;
+    display: flex;
+    /* margin-top: 90px; */
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+.icons_footer{
+    /* background-color:gainsboro; */
+    height: auto;
+    width: 20%;
+    float:left;
+    color: #8e8e8f;
+  
+}
+.categories{
+    /* background-color: rgb(12, 237, 61); */
+    height: auto;
+    width: 20%;
+    float:left
+}
+.categories h3{
+    font-weight:200;
+    margin-bottom: 40px;
+}
+.categories h5{
+    font-weight: 100;
+    font-size: 17px;
+    color: #8e8e8f;
+    margin-bottom: 20px;
+}
+.infor{
+    /* background-color: palegoldenrod; */
+    height: auto;
+    width:20%;
+    float:left
+    
+}
+.infor h3{
+    font-weight:200;
+    margin-bottom: 40px;
+}
+.infor h5{
+    font-weight: 100;
+    font-size: 17px;
+    color: #8e8e8f;
+    margin-bottom: 20px;
+
+}
+.get{
+    /* background-color: yellow; */
+    width: 15%;
+}
+.get h3{
+    font-weight:200;
+    margin-bottom: 40px;
+}
+.get div{
+    display:flex;
+    align-items:center;
+    text-indent: 5px;
+    margin-bottom: 15px;
+
+}
+.get div span{
+    font-weight: 100;
+    font-size: 17px;
+    color: #8e8e8f;
+    
+}
+.subs{
+    /* background-color: firebrick; */
+    height:auto;
+    width: 25%;
+    float:left;
+    
+    
+}
+.subs h3{
+    font-weight:200;
+    margin-bottom: 40px;
+
+}
+.subs  p{
+    font-weight: 100;
+    font-size: 17px;
+    color: #8e8e8f;
+    margin-bottom: 20px;
+
+}
+.subs_sub1 {
+    border: 1px solid #8e8e8f;
+    display: flex;
+align-items: center;
+    border-radius: 25px;
+    /* padding: 13px; */
+    display: flex;
+    justify-content: space-between;
+
+}
+.subs_sub1 span{
+    color: #8e8e8f;
+    margin-left: 20px;
+}
+.subs_sub1 button{
+    border: 3px solid #f6f6f8;
+    height: 50px;
+    background-color: black;
+    border-radius: 25px;
+    color: white;
+    padding:10px 23px 10px 23px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.icons{
+    margin-top: 75px;
+  padding-top: 25px;
+}
+.icons div{
+    padding-bottom: 20px;
+    display: flex;
+ align-items: center;
+ text-indent: 10px;
+}
